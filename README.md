@@ -1,4 +1,4 @@
-# Grocery Minimalist App Flutter 
+# Shoppin App Flutter 
 
 ## Stack:
 
