@@ -19,6 +19,8 @@ class BackGround {
   BackGround._();
 
   static Color get primaryColor => const Color(0xFFF5F5F5);
+
+  static Color get secondaryColor => const Color(0xFF9E9E9E);
 }
 
 class IconButtonColor {
