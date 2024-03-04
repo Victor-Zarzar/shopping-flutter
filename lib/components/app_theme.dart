@@ -9,6 +9,12 @@ class AppTheme {
   static Color get secondaryColor => const Color(0x00000000);
 }
 
+class AppBarThemeColor {
+  AppBarThemeColor._();
+
+  static Color get primaryColor => const Color(0xffF5F5F5);
+}
+
 class BackGround {
   BackGround._();
 
@@ -18,5 +24,5 @@ class BackGround {
 class IconButtonColor {
   IconButtonColor._();
 
-  static Color get primaryColor => const Color(0xFFFFFF);
+  static Color get primaryColor => const Color(0xFF9E9E9E);
 }
