@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:shopping_app_flutter/components/app_bar_home.dart';
 import 'package:shopping_app_flutter/components/app_theme.dart';
 import 'package:shopping_app_flutter/components/carrousel_app.dart';
+import 'package:shopping_app_flutter/components/categories_app.dart';
 import 'package:shopping_app_flutter/components/search_bar_app_home.dart';
 
 class HomePage extends StatefulWidget {
@@ -33,12 +34,17 @@ class _HomePageState extends State<HomePage> {
                 height: 20,
               ),
               CarrouselPages(
-                  onChange: (value) {
-                    setState(() {
-                      currentSlide = value;
-                    });
-                  },
-                  currentSlide: currentSlide),
+                onChange: (value) {
+                  setState(() {
+                    currentSlide = value;
+                  });
+                },
+                currentSlide: currentSlide,
+              ),
+              const SizedBox(
+                height: 20,
+              ),
+              const Categories(),
             ],
           ),
         ),
