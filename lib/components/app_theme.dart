@@ -28,3 +28,11 @@ class IconButtonColor {
 
   static Color get primaryColor => const Color(0xFF9E9E9E);
 }
+
+class PageCarrousel {
+  PageCarrousel._();
+
+  static Color get primaryColor => const Color(0xFF000000);
+
+  static Color get secondaryColor => const Color(0x00000000);
+}
