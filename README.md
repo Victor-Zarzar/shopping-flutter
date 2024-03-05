@@ -1,4 +1,4 @@
-# Shoppin App Flutter 
+# Shopping App Flutter 
 
 ## Stack:
 

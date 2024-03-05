@@ -36,3 +36,10 @@ class PageCarrousel {
 
   static Color get secondaryColor => const Color(0x00000000);
 }
+
+class ContainerColor {
+  ContainerColor._();
+
+  static Color get primaryColor => const Color(0xffF5F5F5);
+
+}
