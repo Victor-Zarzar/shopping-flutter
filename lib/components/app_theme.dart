@@ -41,5 +41,20 @@ class ContainerColor {
   ContainerColor._();
 
   static Color get primaryColor => const Color(0xffF5F5F5);
+}
 
+class ProductColor {
+  ProductColor._();
+
+  static Color get primaryColor => const Color(0x00000000);
+
+  static Color get secondaryColor => const Color(0xFF2196F3);
+
+  static Color get thirdColor => const Color(0xFFFF9800);
+
+  static Color get fourthColor => const Color(0xFF795548);
+
+  static Color get fifithColor => const Color(0xFFF44336);
+
+  static Color get sixthColor => const Color(0xFFE91E63);
 }
