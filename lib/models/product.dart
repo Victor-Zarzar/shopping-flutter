@@ -26,7 +26,7 @@ final List<Product> products = [
     title: "Wireless Headphones",
     description:
         "Wireless headphones with excellent sound quality and modern design. Features 40mm drivers for powerful bass and crisp highs. The battery lasts up to 20 hours on a single charge. The over-ear design with soft ear pads provides comfort for hours of wear. Available in three vibrant colors. Bluetooth 5.0 technology ensures stable and seamless connectivity.",
-    image: "assets/wireless.png",
+    image: "lib/assets/wireless.png",
     price: 120,
     colors: [
       ProductColor.primaryColor,
@@ -40,7 +40,7 @@ final List<Product> products = [
     title: "Woman Sweter",
     description:
         "Women's stylish sweater with a flattering fit. Made from a soft, lightweight knit material that provides warmth without the bulk. Features a v-neckline and long sleeves for a classic look. Available in three versatile neutral colors that pair perfectly with any outfit. The ribbed hemline and cuffs add subtle detailing. An essential piece for any woman's wardrobe when the weather turns cool.",
-    image: "assets/sweet.png",
+    image: "lib/assets/sweet.png",
     price: 120,
     colors: [
       ProductColor.fourthColor,
@@ -54,7 +54,7 @@ final List<Product> products = [
     title: "Smart Watch",
     description:
         "Smart watch with fitness tracking and smartphone notifications. Features heart rate monitoring, sleep tracking, step counting, and more. The slim, lightweight design is comfortable for all-day wear. The long-lasting battery provides up to 10 days of use on a single charge. The high-resolution color touchscreen allows you to easily view your stats and notifications. Customizable watch faces let you personalize your look. Pairs with your smartphone via Bluetooth to receive call, text, and app alerts on your wrist. The perfect fitness companion to help you achieve your health goals.",
-    image: "assets/miband.jpg",
+    image: "lib/assets/miband.jpg",
     price: 55,
     colors: [
       ProductColor.primaryColor,
