@@ -1,11 +1,38 @@
-# Shopping App Flutter 
+<h1 align="center" id="header">
+ Shopping App Flutter
+</h1>
 
-## Stack:
+🤖 Stack:
 
 - Dart
 - Flutter
 - Google Fonts
 - Provider
+
+<br />
+
+⚙️ How to install:
+
+Project Clone
+
+     git clone https://github.com/Victor-Zarzar/shopping-flutter
+
+Enter in directory:
+
+     cd shopping-flutter
+
+Open in your favorite editor(e.g. VSCode):
+
+    code .
+
+For install dependencies:
+
+    flutter pub get
+
+Run the app:
+   
+    Flutter run
+
 
 ### Version iOS:
 
