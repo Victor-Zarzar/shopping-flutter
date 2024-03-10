@@ -31,7 +31,7 @@ For install dependencies:
 
 Run the app:
    
-    Flutter run
+    flutter run
 
 
 ### Version iOS:
