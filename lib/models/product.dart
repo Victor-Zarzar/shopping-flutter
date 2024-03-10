@@ -27,7 +27,7 @@ final List<Product> products = [
     description:
         "Wireless headphones with excellent sound quality and modern design. Features 40mm drivers for powerful bass and crisp highs. The battery lasts up to 20 hours on a single charge. The over-ear design with soft ear pads provides comfort for hours of wear. Available in three vibrant colors. Bluetooth 5.0 technology ensures stable and seamless connectivity.",
     image: "lib/assets/wireless.png",
-    price: 120,
+    price: 70,
     colors: [
       ProductColor.primaryColor,
       ProductColor.secondaryColor,
@@ -41,7 +41,7 @@ final List<Product> products = [
     description:
         "Women's stylish sweater with a flattering fit. Made from a soft, lightweight knit material that provides warmth without the bulk. Features a v-neckline and long sleeves for a classic look. Available in three versatile neutral colors that pair perfectly with any outfit. The ribbed hemline and cuffs add subtle detailing. An essential piece for any woman's wardrobe when the weather turns cool.",
     image: "lib/assets/sweet.png",
-    price: 120,
+    price: 30,
     colors: [
       ProductColor.fourthColor,
       ProductColor.fifithColor,

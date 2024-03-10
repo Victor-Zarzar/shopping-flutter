@@ -46,7 +46,7 @@ class ContainerColor {
 class ProductColor {
   ProductColor._();
 
-  static Color get primaryColor => const Color(0x00000000);
+  static Color get primaryColor => const Color(0xFF000000);
 
   static Color get secondaryColor => const Color(0xFF2196F3);
 
@@ -57,4 +57,12 @@ class ProductColor {
   static Color get fifithColor => const Color(0xFFF44336);
 
   static Color get sixthColor => const Color(0xFFE91E63);
+}
+
+class CardColors {
+  CardColors._();
+
+  static Color get primaryColor => const Color(0xFFF57C00);
+
+  static Color get secondaryColor => const Color(0xffF5F5F5);
 }
