@@ -5,8 +5,8 @@ import 'package:shopping_app_flutter/models/product.dart';
 
 class ProductsCard extends StatelessWidget {
   final Product product;
-  const ProductsCard({super.key, required this.product});
-
+  final int index;
+  const ProductsCard({super.key, required this.product, required this.index});
 
   @override
   Widget build(BuildContext context) {
