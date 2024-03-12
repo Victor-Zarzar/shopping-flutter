@@ -40,4 +40,4 @@ Run the app:
 
 ### Version Android:
 
-<img src="lib/assets/homeandroid.png" alt="home android" width="250"> &nbsp; &nbsp; &nbsp; <img src="lib/assets/homeandroid2.png" alt="home android 2" width="250"> &nbsp; &nbsp; &nbsp; <img src="lib/assets/detailandroid.png" alt="detail android" width="250">
+<img src="lib/assets/homepageandroid.png" alt="home android" width="250"> &nbsp; &nbsp; &nbsp; <img src="lib/assets/productandroid1.png" alt="home android 2" width="250"> &nbsp; &nbsp; &nbsp; <img src="lib/assets/productandroid2.png" alt="detail android" width="250">
