@@ -77,4 +77,6 @@ class TextColors {
   static Color get primaryColor => const Color(0xFFFFFFFF);
 
   static Color get secondaryColor => const Color(0xFF9E9E9E);
+
+  static Color get thirdColor => const Color(0xFF546E7A);
 }
