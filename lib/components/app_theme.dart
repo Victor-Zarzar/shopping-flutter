@@ -70,3 +70,11 @@ class CardColors {
 
   static Color get secondaryColor => const Color(0xffF5F5F5);
 }
+
+class TextColors {
+  TextColors._();
+
+  static Color get primaryColor => const Color(0xFFFFFFFF);
+
+  static Color get secondaryColor => const Color(0xFF9E9E9E);
+}

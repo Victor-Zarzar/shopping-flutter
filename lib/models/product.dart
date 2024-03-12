@@ -34,7 +34,7 @@ final List<Product> products = [
       ProductColor.thirdColor,
     ],
     category: "Headphones",
-    rate: 4.8,
+    rate: 4.9,
   ),
   Product(
     title: "Woman Sweter",
@@ -60,6 +60,6 @@ final List<Product> products = [
       ProductColor.primaryColor,
     ],
     category: "Watch",
-    rate: 4.8,
+    rate: 4.9,
   ),
 ];

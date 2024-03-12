@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:ionicons/ionicons.dart';
 import 'package:shopping_app_flutter/components/app_theme.dart';
 import 'package:shopping_app_flutter/components/image_carroussel.dart';
+import 'package:shopping_app_flutter/components/productinfo_app.dart';
 import 'package:shopping_app_flutter/components/products_app_bar.dart';
 import 'package:shopping_app_flutter/models/product.dart';
 
@@ -15,6 +15,7 @@ class ProductsPage extends StatefulWidget {
 
 class _ProductsPageState extends State<ProductsPage> {
   int currentImage = 0;
+  int currentColor = 0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -75,56 +76,48 @@ class _ProductsPageState extends State<ProductsPage> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(
-                    widget.product.title,
-                    style: const TextStyle(
+                  ProductInfo(
+                    product: widget.product,
+                  ),
+                  const SizedBox(
+                    height: 20,
+                  ),
+                  const Text(
+                    "Color",
+                    style: TextStyle(
+                      fontSize: 18,
                       fontWeight: FontWeight.bold,
-                      fontSize: 22,
                     ),
                   ),
+                  const SizedBox(
+                    height: 10,
+                  ),
                   Row(
-                    children: [
-                      Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text(
-                            "\$${widget.product.price}",
-                            style: const TextStyle(
-                              fontWeight: FontWeight.bold,
-                              fontSize: 22,
+                    children: List.generate(
+                      widget.product.colors.length,
+                      (index) => GestureDetector(
+                        child: Container(
+                          width: 35,
+                          height: 35,
+                          decoration: BoxDecoration(
+                            shape: BoxShape.circle,
+                            color: widget.product.colors[index],
+                          ),
+                          margin: EdgeInsets.only(
+                            right: 15,
+                          ),
+                          child: Container(
+                            width: 30,
+                            height: 30,
+                            decoration: BoxDecoration(
+                              shape: BoxShape.circle,
+                              color: widget.product.colors[index],
                             ),
                           ),
-                          Row(
-                            children: [
-                              Container(
-                                width: 50,
-                                height: 20,
-                                decoration: BoxDecoration(
-                                  color: Colors.red,
-                                  borderRadius: BorderRadius.circular(15),
-                                ),
-                                padding: const EdgeInsets.symmetric(
-                                horizontal: 5, 
-                                vertical: 2,
-                                ),
-                                child: Row(
-                                  children: [
-                                    Icon(Ionicons.star,
-                                    size: 13,
-                                    color: IconButtonColor.secondaryColor,
-                                    ),
-                                    Text(widget.product.rate.toString(),
-                                    style: const TextStyle(color: Colors.white, fontSize: 13),
-                                    ),
-                                  ],
-                                ),
-                              )
-                            ],
-                          )
-                        ],
+                        ),
                       ),
-                    ],
-                  )
+                    ),
+                  ),
                 ],
               ),
             ),
