@@ -80,3 +80,9 @@ class TextColors {
 
   static Color get thirdColor => const Color(0xFF546E7A);
 }
+
+class ButtonCardColor {
+  ButtonCardColor._();
+
+  static Color get primaryColor => const Color(0xFF000000);
+}

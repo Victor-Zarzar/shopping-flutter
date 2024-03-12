@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shopping_app_flutter/components/add_to_cart.dart';
 import 'package:shopping_app_flutter/components/app_theme.dart';
 import 'package:shopping_app_flutter/components/image_carroussel.dart';
 import 'package:shopping_app_flutter/components/product_description.dart';
@@ -17,10 +18,13 @@ class ProductsPage extends StatefulWidget {
 class _ProductsPageState extends State<ProductsPage> {
   int currentImage = 0;
   int currentColor = 0;
+  int currentNumber = 1;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppTheme.primaryColor,
+      floatingActionButton: AddtoCart(currentNumber: currentNumber),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       body: SingleChildScrollView(
         child: SafeArea(
           child: Column(
