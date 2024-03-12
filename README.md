@@ -36,7 +36,7 @@ Run the app:
 
 ### Version iOS:
 
-<img src="lib/assets/images/intropageios.png" alt="intro page" width="250"> &nbsp; &nbsp; &nbsp; <img src="lib/assets/images/homeios.png" alt="home ios" width="250"> &nbsp; &nbsp; &nbsp; <img src="lib/assets/images/cartios.png" alt="cartios" width="250">
+<img src="lib/assets/homepageios.png" alt="home page" width="250"> &nbsp; &nbsp; &nbsp; <img src="lib/assets/productios1.png" alt="product ios 1" width="250"> &nbsp; &nbsp; &nbsp; <img src="lib/assets/productios2.png" alt="product ios 2" width="250">
 
 ### Version Android:
 
