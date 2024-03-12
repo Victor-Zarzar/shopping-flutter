@@ -23,6 +23,19 @@ class Product {
 
 final List<Product> products = [
   Product(
+    title: "iPhone 13 128GB",
+    description:
+        "The iPhone 13 128GB features a powerful A15 Bionic chip for lightning-fast performance, a stunning 6.1-inch Super Retina XDR display, and an advanced dual-camera system. Capture incredible photos and videos in any light. Enjoy long-lasting battery life and super-fast 5G connectivity.",
+    image: "lib/assets/iphone.jpg",
+    price: 399,
+    colors: [
+      ProductColor.primaryColor,
+      ProductColor.fifithColor,
+    ],
+    category: "Smartphones",
+    rate: 5.0,
+  ),
+  Product(
     title: "Wireless Headphones",
     description:
         "Wireless headphones with excellent sound quality and modern design. Features 40mm drivers for powerful bass and crisp highs. The battery lasts up to 20 hours on a single charge. The over-ear design with soft ear pads provides comfort for hours of wear. Available in three vibrant colors. Bluetooth 5.0 technology ensures stable and seamless connectivity.",

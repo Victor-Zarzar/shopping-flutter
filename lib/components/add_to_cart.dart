@@ -3,9 +3,11 @@ import 'package:ionicons/ionicons.dart';
 import 'package:shopping_app_flutter/components/app_theme.dart';
 
 class AddtoCart extends StatelessWidget {
+  final Function() onAdd;
+  final Function() onRemove;
   const AddtoCart({
     super.key,
-    required this.currentNumber,
+    required this.currentNumber, required this.onAdd, required this.onRemove,
   });
 
   final int currentNumber;
@@ -37,7 +39,7 @@ class AddtoCart extends StatelessWidget {
               child: Row(
                 children: [
                   IconButton(
-                    onPressed: () {},
+                    onPressed: onRemove,
                     icon: Icon(
                       Ionicons.remove_outline,
                       size: 18,
@@ -57,7 +59,7 @@ class AddtoCart extends StatelessWidget {
                     width: 5,
                   ),
                   IconButton(
-                    onPressed: () {},
+                    onPressed: onAdd,
                     icon: Icon(
                       Ionicons.add_outline,
                       size: 18,

@@ -23,7 +23,21 @@ class _ProductsPageState extends State<ProductsPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppTheme.primaryColor,
-      floatingActionButton: AddtoCart(currentNumber: currentNumber),
+      floatingActionButton: AddtoCart(
+        currentNumber: currentNumber,
+        onAdd: () {
+          setState(() {
+            currentNumber++;
+          });
+        },
+        onRemove: () {
+          if (currentNumber != 1) {
+            setState(() {
+              currentNumber--;
+            });
+          }
+        },
+      ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       body: SingleChildScrollView(
         child: SafeArea(
@@ -78,7 +92,7 @@ class _ProductsPageState extends State<ProductsPage> {
                       topLeft: Radius.circular(20),
                     ),
                     color: BackGround.thirdColor),
-                padding: const EdgeInsets.all(20),
+                padding: const EdgeInsets.only(left: 20, top: 20, right: 20),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
